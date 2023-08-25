@@ -1,0 +1,21 @@
+@import "../SharedStyles/Colors.uss";
+
+.tool-button {
+    width: 32px;
+    height: 32px;
+    border-bottom-width: 1px;
+}
+
+.tool-button.selected {
+    border-color: var(--enabled-color);
+}
+
+.tool-button-icon {
+    flex-grow: 1;
+    -unity-background-image-tint-color: var(--disabled-color);
+    margin-bottom: 2px;
+}
+
+.tool-button-icon.selected {
+    -unity-background-image-tint-color: var(--enabled-color);
+}

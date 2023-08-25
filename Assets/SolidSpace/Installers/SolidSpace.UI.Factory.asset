@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdd7c7950ccb40faba98a8964e936a6e, type: 3}
+  m_Name: SolidSpace.UI.Factory
+  m_EditorClassIdentifier: 
+  _prefabs:
+    _toolButton:
+      _asset: {fileID: 9197481963319205126, guid: 68facf6977bc080458447472366a37c4, type: 3}
+    _toolWindow:
+      _asset: {fileID: 9197481963319205126, guid: fddea021b1e04ea49846124ef31a7203, type: 3}
+    _tagLabel:
+      _asset: {fileID: 9197481963319205126, guid: 6b52f4f1a3c8460db59dcf13b7f9319d, type: 3}
+    _layoutGrid:
+      _asset: {fileID: 9197481963319205126, guid: e4c42ee18d1b1d84a88c5ae89190a056, type: 3}
+    _generalButton:
+      _asset: {fileID: 9197481963319205126, guid: 52a8ffb87f0a4e46beb97cd2de835baf, type: 3}
+    _stringField:
+      _asset: {fileID: 9197481963319205126, guid: 2a98d685c19742ca9ab2da0e76d5f1d7, type: 3}
+    _verticalFixedItemList:
+      _asset: {fileID: 9197481963319205126, guid: f20c2a83f3a1a034581f203b51bd7b71, type: 3}

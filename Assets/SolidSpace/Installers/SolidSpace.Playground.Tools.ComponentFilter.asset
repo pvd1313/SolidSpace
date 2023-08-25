@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47361ffa42774a6a99e1aea3bda1afe6, type: 3}
+  m_Name: SolidSpace.Playground.Tools.ComponentFilter
+  m_EditorClassIdentifier: 
+  _factoryConfig:
+    _filter:
+      pattern: (?i)SolidSpace\..*Component
+    _nameConverter:
+      pattern: (Component$)|([A-Z][a-z0-9]+)
+      substitution: $2

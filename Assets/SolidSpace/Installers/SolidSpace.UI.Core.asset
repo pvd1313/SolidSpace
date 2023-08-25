@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2d787ac73eb4e2e83943a0db63124c2, type: 3}
+  m_Name: SolidSpace.UI.Core
+  m_EditorClassIdentifier: 
+  _config:
+    _containerNames:
+    - ContainerA
+    - ContainerB
+    _rootAsset: {fileID: 9197481963319205126, guid: 17ad6ea4bff494d4683d1cdd6559d293, type: 3}
+    _panelSettings: {fileID: 11400000, guid: 5dd0272d3fe5a0547a5f669c0d3c577e, type: 2}

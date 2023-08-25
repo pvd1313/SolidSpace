@@ -1,0 +1,21 @@
+@import "../SharedStyles/Colors.uss";
+
+.fixed-item-list-slider {
+    background-color: var(--disabled-color);
+    width: 4px;
+    margin: 1px;
+    border-radius: 2px;
+}
+
+.fixed-item-list-slider-handle {
+    background-color: var(--enabled-color);
+    border-radius: 2px;
+}
+
+.fixed-item-list {
+    flex-direction: row;
+}
+
+.fixed-item-list-attach-point {
+    flex-grow: 1;
+}

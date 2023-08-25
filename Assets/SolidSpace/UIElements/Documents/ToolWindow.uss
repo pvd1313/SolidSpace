@@ -1,0 +1,26 @@
+@import "../SharedStyles/Colors.uss";
+
+.unity-label {
+    -unity-font: url('../Resources/Fonts/HelvetiPixel.ttf');
+    -unity-text-align: middle-left;
+    font-size: 16px;
+}
+
+.window {
+    background-color: var(--enabled-color);
+    border-radius: 2px;
+    margin: 2px;
+}
+
+.window-header-text {
+    color: var(--background-color);
+    padding: 4px;
+}
+
+.window-body {
+    background-color: var(--background-color);
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    padding: 2px;
+    margin: 1px;
+}

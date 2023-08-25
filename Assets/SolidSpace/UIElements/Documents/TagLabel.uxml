@@ -1,0 +1,16 @@
+<UXML 
+    xmlns="UnityEngine.UIElements" 
+    xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    engine="UnityEngine.UIElements" 
+    editor="UnityEditor.UIElements" 
+    noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" 
+    editor-extension-mode="False">
+    
+    <Style src="TagLabel.uss" />
+    
+    <VisualElement name="Button" class="tag-label">
+        <VisualElement name="Lock" class="tag-label-lock"/>
+        <Label name="Label" class="tag-label-text" text="Hello, world!"/>
+    </VisualElement>
+    
+</UXML>

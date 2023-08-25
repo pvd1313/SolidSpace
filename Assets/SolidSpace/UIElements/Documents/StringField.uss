@@ -1,0 +1,28 @@
+@import "../SharedStyles/Colors.uss";
+
+Label {
+    min-width: 100px;
+    color: var(--disabled-color);
+}
+
+TextField {
+    margin: 2px;
+}
+
+TextInput {
+    border-color: var(--disabled-color);
+    -unity-font: url('../Resources/Fonts/HelvetiPixel.ttf');
+    font-size: 16px;
+}
+
+TextInput:hover {
+    border-color: var(--disabled-color);
+}
+
+TextInput:focus {
+    border-color: var(--enabled-color);
+}
+
+Label:focus{
+    color: var(--enabled-color);
+}

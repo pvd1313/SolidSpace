@@ -1,0 +1,17 @@
+@import "../SharedStyles/Colors.uss";
+
+.general-button {
+    background-color: var(--enabled-color);
+    border-radius: 2px;
+    margin: 2px;
+}
+
+.general-button.pressed {
+    background-color: var(--disabled-color);
+    border-color: var(--enabled-color);
+}
+
+.general-button-label {
+    padding: 4px;
+    color: var(--background-color);
+}

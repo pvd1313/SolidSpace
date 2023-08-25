@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4bfeab0ce174357ba638a7cdb65f68b, type: 3}
+  m_Name: SolidSpace.Playground.Tools.ShipSpawn
+  m_EditorClassIdentifier: 
+  _config:
+    _sprites:
+    - {fileID: 21300000, guid: d09475ef631139d4e8e54a6e56d5c9f2, type: 3}
+    - {fileID: 21300000, guid: b690e9dbb90184d438741d676428d34d, type: 3}
+    - {fileID: 21300000, guid: 8ba7473f1e2c3634182d540068b4cedb, type: 3}

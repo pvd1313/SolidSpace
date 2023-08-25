@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8e026fe882a47bfbd8a427525ee2978, type: 3}
+  m_Name: SolidSpace.Playground.Core
+  m_EditorClassIdentifier: 
+  _config:
+    _windowDefaultTitle: 
+    _toolNameConverter:
+      pattern: (Tool$)|([A-Z][a-z0-9]+)
+      substitution: '$2 '
+    _toolIcons:
+    - toolType:
+        typeName: SolidSpace.Playground.Tools.ShipSpawn.ShipSpawnTool
+      icon: {fileID: 21300000, guid: ddf9e0dc988945f4f816f664a29833ce, type: 3}
+    - toolType:
+        typeName: SolidSpace.Playground.Tools.EmitterSpawn.EmitterSpawnTool
+      icon: {fileID: 21300000, guid: 8ffb8a0b94572ec4e88ba4566dd48859, type: 3}
+    - toolType:
+        typeName: SolidSpace.Playground.Tools.Eraser.EraserTool
+      icon: {fileID: 21300000, guid: 244d9219630308e4e8678cd99ad1bbfe, type: 3}
+    - toolType:
+        typeName: SolidSpace.Playground.Tools.PositionChange.PositionChangeTool
+      icon: {fileID: 21300000, guid: 3efa651fb67db944993bd173ca5796a9, type: 3}
+    - toolType:
+        typeName: SolidSpace.Playground.Tools.VelocityChange.VelocityChangeTool
+      icon: {fileID: 21300000, guid: 203999b16e3f94344b3c6bc7dd3fced5, type: 3}
+    - toolType:
+        typeName: SolidSpace.Playground.Tools.ActorControl.ActorActivationTool
+      icon: {fileID: 21300000, guid: 3e89b26a47ec6064eb9261d989a06e84, type: 3}
+    - toolType:
+        typeName: SolidSpace.Playground.Tools.ActorControl.ActorNavigationTool
+      icon: {fileID: 21300000, guid: 672630b487fb1c2458d069ca60018ec1, type: 3}
+  _installers:
+  - {fileID: 11400000, guid: 27b8e9210bde0234e84dd8a330e9e452, type: 2}
+  - {fileID: 11400000, guid: 57e3b8f4d4c5e1c4989bb5dff241e751, type: 2}
+  - {fileID: 11400000, guid: 39a7514a0dac16349aa2f62c8974daff, type: 2}
+  - {fileID: 11400000, guid: f78751a225639ca4cac29366489de47f, type: 2}
+  - {fileID: 11400000, guid: d4655437f83adb34ba8eb84c2e774d6c, type: 2}
+  - {fileID: 11400000, guid: 583c14aebf0a8564b8406a3fd3fe4500, type: 2}
+  - {fileID: 11400000, guid: 6533e0946bb32664388c4c73e9f1563c, type: 2}
+  - {fileID: 11400000, guid: 570757f5e4bf34a4a8d686fd27440b04, type: 2}
+  - {fileID: 11400000, guid: 1218a5f8c4fbe4043b1f2d8e9a867987, type: 2}
+  - {fileID: 11400000, guid: 69a9dba2ebd55d64da180e859a06e71a, type: 2}

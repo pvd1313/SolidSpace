@@ -1,0 +1,56 @@
+@import "../SharedStyles/Colors.uss";
+
+.tag-label {
+    border-width: 1px;
+    margin: 2px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2px;
+}
+
+.tag-label-lock.locked {
+    background-image: url('../Icons/Lock.png');
+    width: 10px;
+    height: 10px;
+}
+
+.tag-label-text {
+    flex-grow: 1;
+}
+
+.tag-label.positive {
+    border-color: var(--positive-color);
+}
+
+.tag-label.negative {
+    border-color: var(--negative-color);
+}
+
+.tag-label.neutral {
+    border-color: var(--disabled-color);
+}
+
+.tag-label-lock.positive {
+    -unity-background-image-tint-color: var(--positive-color);
+}
+
+.tag-label-lock.neutral {
+    -unity-background-image-tint-color: var(--disabled-color);
+}
+
+.tag-label-lock.negative {
+    -unity-background-image-tint-color: var(--negative-color);
+}
+
+.tag-label-text.positive {
+    color: var(--positive-color);
+}
+
+.tag-label-text.neutral {
+    color: var(--disabled-color);
+}
+
+.tag-label-text.negative {
+    color: var(--negative-color);
+}

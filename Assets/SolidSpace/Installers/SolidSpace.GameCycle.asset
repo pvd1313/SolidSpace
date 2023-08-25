@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 906ec737e14544a38ea4a507fa6a558b, type: 3}
+  m_Name: SolidSpace.GameCycle
+  m_EditorClassIdentifier: 
+  _gameCycleConfig:
+    _initializationOrder:
+      _groups:
+      - _name: UI & Gizmos
+        _controllers:
+        - typeName: SolidSpace.UI.Core.UIEventDispatcher
+        - typeName: SolidSpace.UI.Core.UIManager
+        - typeName: SolidSpace.Gizmos.GizmosStateStorage
+        - typeName: SolidSpace.Gizmos.GizmosManager
+        - typeName: SolidSpace.Gizmos.GizmosDrawerManager
+        - typeName: SolidSpace.Gizmos.GizmosWindow
+      - _name: Entities
+        _controllers:
+        - typeName: SolidSpace.Entities.World.EntityManager
+        - typeName: SolidSpace.Entities.Physics.Velocity.VelocitySystem
+        - typeName: SolidSpace.Entities.Despawn.TimeDespawnComputeSystem
+        - typeName: SolidSpace.Entities.ParticleEmitters.ParticleEmitterComputeSystem
+        - typeName: SolidSpace.Entities.ParticleEmitters.ParticleEmitterCommandSystem
+        - typeName: SolidSpace.Entities.Rendering.Pixels.PixelRenderingSystem
+        - typeName: SolidSpace.Entities.Randomization.RandomValueSystem
+        - typeName: SolidSpace.Entities.RepeatTimer.RepeatTimerSystem
+        - typeName: SolidSpace.Entities.Rendering.Sprites.SpriteColorSystem
+        - typeName: SolidSpace.Entities.Rendering.Sprites.SpriteFrameSystem
+        - typeName: SolidSpace.Entities.Rendering.Sprites.SpriteRenderingSystem
+        - typeName: SolidSpace.Entities.Health.HealthAtlasSystem
+        - typeName: SolidSpace.Playground.Tools.EntitySearch.EntitySearchSystem
+        - typeName: SolidSpace.Entities.Health.HealthIndexDisposeSystem
+        - typeName: SolidSpace.Entities.Rendering.Sprites.FrameIndexDisposeSystem
+        - typeName: SolidSpace.Entities.Actors.ActorControlSystem
+        - typeName: SolidSpace.Entities.Bullets.BulletComputeSystem
+        - typeName: SolidSpace.Entities.Physics.Rigidbody.RigidbodyComputeSystem
+        - typeName: SolidSpace.Entities.Despawn.EntityDestructionSystem
+        - typeName: SolidSpace.Entities.Splitting.SplittingController
+        - typeName: SolidSpace.Entities.ParentHandle.ParentHandleManager
+        - typeName: SolidSpace.Entities.ParentHandle.ParentHandleGarbageCollector
+        - typeName: SolidSpace.Entities.ParentTransform.ParentTransformSystem
+        - typeName: SolidSpace.Entities.Prefabs.PrefabSystem
+      - _name: Managed
+        _controllers:
+        - typeName: SolidSpace.CameraMotion.CameraMotionController
+        - typeName: SolidSpace.Playground.Tools.ComponentFilter.ComponentFilterFactory
+        - typeName: SolidSpace.Playground.Core.PlaygroundCoreController
+    _updateOrder:
+      _groups:
+      - _name: EntityCompute
+        _controllers:
+        - typeName: SolidSpace.Entities.World.EntityWorldTime
+        - typeName: SolidSpace.Entities.Actors.ActorControlSystem
+        - typeName: SolidSpace.Entities.RepeatTimer.RepeatTimerSystem
+        - typeName: SolidSpace.Entities.Randomization.RandomValueSystem
+        - typeName: SolidSpace.Entities.Bullets.BulletComputeSystem
+        - typeName: SolidSpace.Entities.Physics.Velocity.VelocitySystem
+        - typeName: SolidSpace.Entities.Physics.Rigidbody.RigidbodyComputeSystem
+        - typeName: SolidSpace.Entities.ParentTransform.ParentTransformSystem
+        - typeName: SolidSpace.Entities.ParticleEmitters.ParticleEmitterComputeSystem
+        - typeName: SolidSpace.Entities.Despawn.TimeDespawnComputeSystem
+        - typeName: SolidSpace.Playground.Tools.EntitySearch.EntitySearchSystem
+        - typeName: SolidSpace.Entities.ParentHandle.ParentHandleGarbageCollector
+      - _name: EntityCommand
+        _controllers:
+        - typeName: SolidSpace.Entities.Splitting.SplittingController
+        - typeName: SolidSpace.Entities.Prefabs.PrefabSystem
+        - typeName: SolidSpace.Entities.ParticleEmitters.ParticleEmitterCommandSystem
+        - typeName: SolidSpace.Entities.Despawn.EntityDestructionSystem
+      - _name: Managed
+        _controllers:
+        - typeName: SolidSpace.CameraMotion.CameraMotionController
+        - typeName: SolidSpace.Playground.Core.MouseTracker
+        - typeName: SolidSpace.Playground.Core.PlaygroundCoreController
+        - typeName: SolidSpace.UI.Core.UIEventDispatcher
+        - typeName: SolidSpace.Gizmos.GizmosWindow
+      - _name: Render
+        _controllers:
+        - typeName: SolidSpace.Gizmos.GizmosDrawerManager
+        - typeName: SolidSpace.Entities.Rendering.Sprites.SpriteFrameSystem
+        - typeName: SolidSpace.Entities.Rendering.Pixels.PixelRenderingSystem
+        - typeName: SolidSpace.Entities.Rendering.Sprites.SpriteRenderingSystem

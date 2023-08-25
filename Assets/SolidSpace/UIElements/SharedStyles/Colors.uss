@@ -1,0 +1,7 @@
+:root {
+    --enabled-color: #487EB0;
+    --disabled-color: #939397;
+    --positive-color: #319e22;
+    --negative-color: #C23616;
+    --background-color: #F5F6FA;
+}

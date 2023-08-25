@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d19ec7c5696d47d0ad79ed7444df6c72, type: 3}
+  m_Name: AssetNameTool
+  m_EditorClassIdentifier: 
+  _config:
+    _folders:
+    - enabled: 1
+      scannerFilter:
+        pattern: (?i)Assets\/SolidSpace\/Installers
+      nameConverter:
+        pattern: (.*)((?i)\.\w*Installer)
+        substitution: $1.asset

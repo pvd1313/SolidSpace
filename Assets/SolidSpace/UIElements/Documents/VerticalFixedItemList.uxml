@@ -1,0 +1,18 @@
+<UXML xmlns="UnityEngine.UIElements" 
+      xsi="http://www.w3.org/2001/XMLSchema-instance" 
+      engine="UnityEngine.UIElements" 
+      editor="UnityEditor.UIElements" 
+      noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" 
+      editor-extension-mode="False">
+    
+    <Style src="VerticalFixedItemList.uss" />
+    
+    <VisualElement class="fixed-item-list">
+        <VisualElement name="AttachPoint" class="fixed-item-list-attach-point"/>
+        <VisualElement class="fixed-item-list-slider">
+            <VisualElement name="SliderStart" />
+            <VisualElement class="fixed-item-list-slider-handle" name="SliderMiddle" />
+            <VisualElement name="SliderEnd" />
+        </VisualElement>
+    </VisualElement>
+</UXML>
