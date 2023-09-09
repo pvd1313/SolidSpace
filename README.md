@@ -1,6 +1,6 @@
 Unity 2D top down pixel physics game prototype.
 
-![1](https://github.com/pvd1313/SolidSpace/assets/5685763/299f7248-0197-4daa-ba39-ad6883f31efd) ![2](https://github.com/pvd1313/SolidSpace/assets/5685763/0e3d9366-a7b6-4f2a-9e4f-e562e663d1b0)
+![1](https://github.com/pvd1313/SolidSpace/assets/5685763/7398b0bd-c7e7-4a7d-af0c-f3f76f3e1e32)![2](https://github.com/pvd1313/SolidSpace/assets/5685763/9f98b90f-01a4-473b-8270-d9d3558cc665)
 
 # All in all
 This project is a way far from being finished, but I believe there is something particually interesting you can scavenge for your very own game. Definitely, not all features are documented. Definitely, there is some fabrication. Originally this project uses Odin inspector / validator, add it into the local copy of repository to make it work.
